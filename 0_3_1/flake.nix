@@ -9,8 +9,8 @@
   
   inputs.src-commandant-0_3_1.flake = false;
   inputs.src-commandant-0_3_1.owner = "casey-SK";
-  inputs.src-commandant-0_3_1.ref   = "refs/tags/0.3.1";
-  inputs.src-commandant-0_3_1.repo  = "commandant";
+  inputs.src-commandant-0_3_1.ref   = "0_3_1";
+  inputs.src-commandant-0_3_1.repo  = "commandant.git";
   inputs.src-commandant-0_3_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
