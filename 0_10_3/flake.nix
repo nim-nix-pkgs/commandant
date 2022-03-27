@@ -11,6 +11,7 @@
   inputs.src-commandeer-0_10_3.ref   = "refs/tags/0.10.3";
   inputs.src-commandeer-0_10_3.owner = "casey-SK";
   inputs.src-commandeer-0_10_3.repo  = "commandant";
+  inputs.src-commandeer-0_10_3.dir   = "";
   inputs.src-commandeer-0_10_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
