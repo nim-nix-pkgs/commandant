@@ -11,7 +11,6 @@
   inputs.src-commandant-master.ref   = "refs/heads/master";
   inputs.src-commandant-master.owner = "casey-SK";
   inputs.src-commandant-master.repo  = "commandant";
-  inputs.src-commandant-master.dir   = "";
   inputs.src-commandant-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
