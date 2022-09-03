@@ -1,0 +1,15 @@
+*.sublime-*
+nimcache/
+*.html
+
+commandant
+# ignore all files in tests
+
+# unignore all files with an extension
+/tests/*
+!/tests/*.*
+
+/examples/*
+!/examples/*.*
+
+temp.txt
