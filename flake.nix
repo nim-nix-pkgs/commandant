@@ -119,13 +119,13 @@
   inputs."commandant-0_15_0".inputs.nixpkgs.follows = "nixpkgs";
   inputs."commandant-0_15_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."commandant-0_2_0".dir   = "0_2_0";
-  inputs."commandant-0_2_0".owner = "nim-nix-pkgs";
-  inputs."commandant-0_2_0".ref   = "master";
-  inputs."commandant-0_2_0".repo  = "commandant";
-  inputs."commandant-0_2_0".type  = "github";
-  inputs."commandant-0_2_0".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."commandant-0_2_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."commandeer-0_2_0".dir   = "0_2_0";
+  inputs."commandeer-0_2_0".owner = "nim-nix-pkgs";
+  inputs."commandeer-0_2_0".ref   = "master";
+  inputs."commandeer-0_2_0".repo  = "commandeer";
+  inputs."commandeer-0_2_0".type  = "github";
+  inputs."commandeer-0_2_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."commandeer-0_2_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."commandeer-0_3_0".dir   = "0_3_0";
   inputs."commandeer-0_3_0".owner = "nim-nix-pkgs";
@@ -183,21 +183,21 @@
   inputs."commandeer-0_8_0".inputs.nixpkgs.follows = "nixpkgs";
   inputs."commandeer-0_8_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."commandant-0_9_0".dir   = "0_9_0";
-  inputs."commandant-0_9_0".owner = "nim-nix-pkgs";
-  inputs."commandant-0_9_0".ref   = "master";
-  inputs."commandant-0_9_0".repo  = "commandant";
-  inputs."commandant-0_9_0".type  = "github";
-  inputs."commandant-0_9_0".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."commandant-0_9_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."commandeer-0_9_0".dir   = "0_9_0";
+  inputs."commandeer-0_9_0".owner = "nim-nix-pkgs";
+  inputs."commandeer-0_9_0".ref   = "master";
+  inputs."commandeer-0_9_0".repo  = "commandeer";
+  inputs."commandeer-0_9_0".type  = "github";
+  inputs."commandeer-0_9_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."commandeer-0_9_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."commandant-0_9_1".dir   = "0_9_1";
-  inputs."commandant-0_9_1".owner = "nim-nix-pkgs";
-  inputs."commandant-0_9_1".ref   = "master";
-  inputs."commandant-0_9_1".repo  = "commandant";
-  inputs."commandant-0_9_1".type  = "github";
-  inputs."commandant-0_9_1".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."commandant-0_9_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."commandeer-0_9_1".dir   = "0_9_1";
+  inputs."commandeer-0_9_1".owner = "nim-nix-pkgs";
+  inputs."commandeer-0_9_1".ref   = "master";
+  inputs."commandeer-0_9_1".repo  = "commandeer";
+  inputs."commandeer-0_9_1".type  = "github";
+  inputs."commandeer-0_9_1".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."commandeer-0_9_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
